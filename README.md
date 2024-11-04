@@ -1,27 +1,28 @@
-# PsnStore
+# PSN Store Clone - Angular Project
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.2.10.
+This is an Angular project inspired by the layout of the PlayStation Store, developed as part of a personal learning initiative. The project replicates the home page of the PlayStation Store, featuring a static design that displays various gaming products. It incorporates Angular CLI, components, routing, and data binding.
 
-## Development server
+## Table of Contents
+- [Technologies Used](#technologies-used)
+- [Features](#features)
+- [Future Improvements](#future-improvements)
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+## Technologies Used
+- <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/angularjs/angularjs-original.svg" alt="Angular" width="20" height="20"/> **Angular**: Framework for building the application's components and routing.
+- <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-original.svg" alt="TypeScript" width="20" height="20"/> **TypeScript**: Primary programming language for Angular.
+- <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg" alt="CSS" width="20" height="20"/> **CSS**: Custom styling for layout and component designs.
+- <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg" alt="HTML" width="20" height="20"/> **HTML**: Template structure for Angular components.
 
-## Code scaffolding
+## Features
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+- **Static Product Display**: Showcases a grid layout of various gaming products, including images, titles, and brief descriptions.
+- **Header Component**: Includes a navigation header that remains consistent across the application.
+- **Home Component**: The main component displaying the product listings on the home page.
+- **Router Outlet**: Utilizes a router outlet to prepare for future navigation and routing features.
 
-## Build
+## Future Improvements
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+- **Enhanced Design**: Plan to add more animations and effects to create a more engaging user experience.
+- **Responsive Design**: Aim to ensure layout compatibility across various screen sizes and devices.
+- **Additional Pages**: Consider adding more components for different sections like product details, user accounts, and shopping cart functionalities.
+- **Dynamic Data Handling**: Implement a service to fetch and display product data dynamically, amybe from an API.

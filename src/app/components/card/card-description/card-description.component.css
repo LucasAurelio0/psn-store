@@ -1,0 +1,35 @@
+.card-description-container {
+	position: absolute;
+	bottom: 0px;
+	left: 0px;
+
+	display: flex;
+	flex-direction: column;
+
+	width: 100%;
+	height: 70px;
+	padding: 10px;
+	background-color: rgba(0, 0, 0, 0.8);
+	color: beige;
+	font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.card-desccard-description{
+	margin-bottom: 2px;
+}
+
+.card-price{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+.card-price-console{
+	display: flex;
+	flex-direction: row;
+}
+
+.card-price-console > span{
+	margin-right: 5px;
+	color: aquamarine;
+}

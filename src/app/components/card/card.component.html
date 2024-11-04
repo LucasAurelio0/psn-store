@@ -1,4 +1,15 @@
 <a href="#" class="card-container">
-	<img class="card-image" src="assets/bt-1.jpg" alt="Game Cover">
-	<app-card-tag cardTag="Digital License"></app-card-tag>
+	<img
+		class="card-image"
+		[src]=[gameCover]
+		alt="Game Cover"
+	>
+	<app-card-tag
+	cardTag="{{cardTag}}"
+	></app-card-tag>
+	<app-card-description
+		cardConsole="{{cardConsole}}"
+		cardDescription="{{cardDescription}}"
+		cardPrice="{{cardPrice}}"
+	></app-card-description>
 </a>

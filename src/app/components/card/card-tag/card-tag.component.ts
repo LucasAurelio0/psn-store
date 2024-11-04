@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
 
 @Component({
   selector: 'app-card-tag',
@@ -8,5 +8,8 @@ import { Component } from '@angular/core';
   styleUrl: './card-tag.component.css'
 })
 export class CardTagComponent {
+
+	@Input()
+	cardTag:string = ''
 
 }

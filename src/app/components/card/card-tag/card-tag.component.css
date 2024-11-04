@@ -1,0 +1,20 @@
+.card-tag-container {
+	position: absolute;
+	bottom: 90px;
+	right: 0px;
+	background-color: grey;
+}
+
+.card-tag {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: #0d0d0def;
+	color: white;
+	font-size: 12px;
+	padding: 0px 20px;
+	font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+		"Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+	font-weight: bold;
+	height: 40px;
+}
